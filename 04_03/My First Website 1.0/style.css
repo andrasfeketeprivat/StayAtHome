@@ -1,0 +1,106 @@
+body {
+  text-align: left;
+  line-height: 1.5;
+  color: #222222;
+}
+
+header,
+blockquote {
+  font-family: "Abril Fatface", cursive;
+}
+
+.intro,
+h2,
+h3,
+h4,
+li {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2vw;
+  text-align: left;
+  margin-top: 10vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-block-end: 0em;
+}
+subtitle {
+  font-family: "Merriweather", serif;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+header img {
+  width: 80%;
+}
+.header-text {
+  position: absolute;
+  bottom: 13vh;
+  left: 25vw;
+  text-align: left;
+}
+.header-text1 {
+  font-size: 2.5vw;
+  line-height: 1;
+}
+.header-text2 {
+  font-size: 5vw;
+  line-height: 1;
+}
+.intro li {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 1.2vw;
+}
+li {
+  margin-top: 0px;
+  font-size: 0.9vw;
+}
+blockquote {
+  background-color: #444444;
+  position: relative;
+  width: 53vw;
+  margin-left: 22vw;
+  height: auto;
+  margin-block-start: 10vh;
+}
+.quote-mark {
+  position: absolute;
+  top: 5.3vw;
+  left: 0vw;
+  margin: 0;
+  line-height: 0;
+  font-size: 9vw;
+  color: #ffffff;
+  transform: rotate(180deg);
+}
+.quote-text {
+  padding: 3vw 3vw 3vw 3vw;
+  font-size: 3.2vw;
+  color: #ffffff;
+}
+h2 {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  font-size: 1.7vw;
+  text-transform: uppercase;
+}
+h3 {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  font-size: 1.5vw;
+}
+h4 {
+  font-weight: normal;
+  font-size: 0.95vw;
+  margin-top: 8vh;
+}
+svg {
+  margin-top: 6vh;
+}

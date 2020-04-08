@@ -1,0 +1,33 @@
+.header-container {
+  height: 50px;
+  max-width: 1000px;
+  background-color: purple;
+  display: flex;
+}
+
+.header-item {
+  height: 30px;
+  width: 100px;
+  background-color: cyan;
+  display: inline;
+  margin: 10px;
+}
+.body-container {
+  height: 500px;
+  max-width: 1000px;
+  /*   background-color: green; */
+  display: flex;
+  flex-direction: row;
+}
+.body-part1 {
+  display: inline;
+  background-color: yellow;
+  flex-grow: 4;
+  height: 500px;
+}
+.body-part2 {
+  display: inline;
+  flex-grow: 1;
+  background-color: lime;
+  height: 500px;
+}

@@ -1,0 +1,19 @@
+main {
+  font-family: "Sen", sans-serif;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+/* .box {
+  text-align: center;
+} */
+img {
+  width: 150px;
+  margin: 0px;
+}
+a {
+  display: block;
+}

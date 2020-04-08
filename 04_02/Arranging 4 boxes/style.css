@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  background-color: #ffd62a;
+  height: 150px;
+  width: 400px;
+  padding: 0px;
+  /*   align-items: flex-end; */
+  /*   justify-content: flex-end; */
+}
+
+.item {
+  display: inline;
+  background-color: #b02afe;
+  height: 50px;
+  width: 50px;
+  margin: 0px 0px 0px 5px;
+}

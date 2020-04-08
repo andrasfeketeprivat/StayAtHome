@@ -1,0 +1,17 @@
+a {
+  display: block;
+  font-family: "Sen", sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+/* unvisited and visited link */
+a:link,
+a:visited {
+  color: green;
+}
+/* mouse over, selected link */
+a:hover,
+a:active {
+  color: lime;
+  text-decoration: none;
+}
