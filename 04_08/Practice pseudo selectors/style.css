@@ -1,0 +1,11 @@
+
+p {
+    width: 500px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin: 0px;
+}
+p:hover {
+    background-color: coral;
+}
