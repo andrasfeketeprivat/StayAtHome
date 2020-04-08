@@ -1,0 +1,11 @@
+.outerMargin {}
+
+.background {
+    background-color: coral;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
