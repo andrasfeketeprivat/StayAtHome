@@ -18,3 +18,25 @@ $(".third").click(() =>{
     $("button").css("background-color","purple")
     $("button").css("color","white")
 })
+
+// Exercise 1
+//   Read the desired color from the input
+//   Change the buttons’ background-color to the given color
+//   Try it with different colors
+//Exercise 2
+//   Now your previous application changes the buttons’ color whenever the input vale has changed and you clicked on the last button
+//   Change the behavior by ignoring all the clicks after the first one. So even if the input has changed, keep the previous color if it has already changed once.
+let counter = 0;                                              //Exercise 2  
+$("#btnColor").change(() => {                                 //Exercise 1
+    // console.log("szín változott");                         //Debug
+    counter = counter + 1;                                    //Exercise 2
+    if (counter<=1) {                                         //Exercise 2
+        let btnColor = document.querySelector("#btnColor");   //Exercise 1
+        // btnColorValue=btnColor.value;                      //Debug
+        // console.log(btnColorValue);                        //Debug
+        $("button").css("background-color",btnColor.value)    //Exercise 1
+    }   else {                                                //Exercise 2
+        $("#btnColorLabel").text("A gomb színét csak 1-szer lehet megváltoztatni");  //Exercise 2
+    }                                                         //Exercise 2
+})                                                            //Exercise 1
+
