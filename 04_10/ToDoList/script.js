@@ -5,7 +5,7 @@
 //     $("ul").append(`<li>${newToDoItem}</li>`)
 // })
 let addNewListItem = () => {
-    console.log(document.getElementById("newToDo"));
+    console.log(document.getElementById("newToDo").value);
     // let newToDoItem = document.getElementById("newToDo").value
     // $("ul").append(`<li>${newToDoItem}</li>`)
 }
